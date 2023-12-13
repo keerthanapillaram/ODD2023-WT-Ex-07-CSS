@@ -107,6 +107,7 @@ To use a media query in CSS to apply different styles to a webpage for mobile de
 
 
 # CODE :
+```
 html {
     font-size: 50px;
     color: #333;
@@ -126,7 +127,7 @@ a {
             }
         
         }
-
+```
 # OUTPUT :
 
 default:
@@ -148,7 +149,7 @@ Explain how you can use CSS media queries to apply different styles based on the
 
 
 # CODE :
-
+```
 @media (orientation: potrait) {
     html {
         background-color: pink;
@@ -171,7 +172,7 @@ Explain how you can use CSS media queries to apply different styles based on the
     }
 
 }
-
+```
 # OUTPUT :
 
 landscape:
@@ -192,7 +193,7 @@ To describe how you would use media queries to adjust typography (like font size
 
 
 # CODE :
-
+```
 html {
     font-size: 20px;
     color: yellow;
@@ -233,7 +234,7 @@ a {
            
         
         }
-
+```
 
 # OUTPUT :
 
@@ -260,7 +261,7 @@ Media queries can be used to provide print-friendly styles for web pages. How wo
 
 
 # CODE :
-
+```
 html {
     font-size: 50px;
     color: #333;
@@ -284,7 +285,7 @@ a {
             }
         
         }
-
+```
 # OUTPUT :
 
 default:
@@ -308,6 +309,7 @@ With the increasing popularity of dark mode in user interfaces, explain how you 
 
 
 # CODE :
+```
 html {
     font-size: 50px;
     color: #333;
@@ -329,6 +331,7 @@ a {
         color: #17a2b8;
  }
 }
+```
 
 # OUTPUT :
 
