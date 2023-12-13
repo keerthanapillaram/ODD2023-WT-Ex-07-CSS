@@ -83,12 +83,15 @@ footer {
 # Output(i):
 
 light mode:
+
 ![1 css](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/05013c4f-2481-49e4-8ea4-0923a83d7fc1)
 
 Dark mode:
+
 ![1 csss](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/cbd6e019-0205-407c-8b41-5b47743f6cfa)
 
 Smaller screen:
+
 ![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/c0c759b6-947c-41ec-bc73-8765219a8b18)
 
 # Ex-7(ii):
@@ -101,5 +104,83 @@ To use a media query in CSS to apply different styles to a webpage for mobile de
 
 
 # CODE :
+html {
+    font-size: 50px;
+    color: #333;
+    background-color: red;
+}
+
+a {
+    color: #007bff;
+}
+@media (max-width: 600px) {
+            html {
+                background-color: blue;
+                color: #f4f4f4;
+                a {
+                    color: #28a745;
+            }
+            }
+        
+        }
+
+# OUTPUT :
+
+default:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/2ae1182a-9a02-4b07-892e-5adac6ee6c59)
+
+max screen width of 600px:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/e2a31a44-3ceb-4b32-90c5-5ecf74b79148)
+
+# Ex-7(iii):
+
+# AIM:
+
+Explain how you can use CSS media queries to apply different styles based on the orientation (landscape or portrait) of the device. Provide a CSS example where you change the background color of the body based on the orientation.
+
+#  STEPS :
+
+
+
+# CODE :
+
+@media (orientation: potrait) {
+    html {
+        background-color: pink;
+        color: white;
+        
+    }
+    a {
+        color: red;
+}
+
+}
+@media (orientation: landscape) {
+    html {
+        color: #28a745;
+        background-color: white;
+
+        a {
+        color: green;
+   }
+    }
+
+}
+
+# OUTPUT :
+
+landscape:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/30915658-13aa-47d2-bf5d-67a881e164af)
+
+potrait:
+
+
+
+
+
+
 
 
