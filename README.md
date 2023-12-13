@@ -27,6 +27,7 @@ If the user has set their device to dark mode, override the above styles with th
 
 css.html:
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
