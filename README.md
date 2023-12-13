@@ -5,7 +5,9 @@ Ref.no: 23011895
 ```
 
 # Ex-7(i):
+
 # AIM:
+
 Using CSS media queries, modify the webpage's color scheme with the following requirements:
 
 Default Color Scheme: Background color: Light gray (#f4f4f4) Text color: Dark gray (#333) Link color: Blue (#007bff) Small Screen Adaptation (Max-width: 600px):
