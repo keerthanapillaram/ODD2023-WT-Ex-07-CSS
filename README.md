@@ -160,7 +160,7 @@ Explain how you can use CSS media queries to apply different styles based on the
 @media (orientation: landscape) {
     html {
         color: #28a745;
-        background-color: white;
+        background-color: pink;
 
         a {
         color: green;
@@ -173,9 +173,175 @@ Explain how you can use CSS media queries to apply different styles based on the
 
 landscape:
 
-![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/30915658-13aa-47d2-bf5d-67a881e164af)
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/98fb107d-ef38-405f-9461-d8c1bbf8e59e)
 
 potrait:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/fc20a645-6a74-4824-b24f-80f3c129113d)
+
+# Ex-7(iv):
+# AIM:
+To describe how you would use media queries to adjust typography (like font size and line spacing) on a website to improve readability across different device sizes, from mobile phones to large desktop monitors. Include a CSS code snippet in your explanation.
+
+# STEPS :
+
+
+
+
+# CODE :
+
+html {
+    font-size: 20px;
+    color: yellow;
+    background-color: orange;
+}
+
+a {
+    color: yellow;
+}
+.non-essential {
+    display: none;
+    }
+@media (min-width: 600px) {
+            html {
+                font-size: 50px;
+                background-color: blueviolet;
+                color: #f4f4f4;
+                a {
+                    color: #28a745;
+                    
+                        
+            }
+            }
+           
+        
+        }
+@media (min-width: 800px) {
+            html {
+                font-size: 80px;
+                background-color: pink;
+                color: #f4f4f4;
+                a {
+                    color: #28a745;
+                    
+                        
+            }
+            }
+           
+        
+        }
+
+
+# OUTPUT :
+
+min-width=800px:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/e1ba7bd2-201e-4f4c-8c23-8e68aa622263)
+
+max-width=600px:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/6d1e7113-4f28-4162-9c26-dd84718e9821)
+
+default:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/05960ec8-af47-4e1a-806f-88d21f30442c)
+
+# Ex-7(v):
+# AIM:
+Media queries can be used to provide print-friendly styles for web pages. How would you use a media query to change the styling of a webpage when it is printed, such as changing the background to white and hiding non-essential elements Provide a CSS example.
+
+# STEPS :
+
+
+
+
+
+# CODE :
+
+html {
+    font-size: 50px;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #007bff;
+}
+@media print {
+            html {
+                font-size: 20px;
+                background-color: #333;
+                color: #f4f4f4;
+                a {
+                    color: #28a745;
+                    .non-essential {
+                        display: none;
+                    }
+            }
+            }
+        
+        }
+
+# OUTPUT :
+
+default:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/44486df1-0937-4fc6-87ab-7e622bf4d737)
+
+non essential:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/91ec0004-3d94-4ad6-9608-c79183cf76cc)
+
+# Ex-7(vi):
+
+# AIM:
+
+With the increasing popularity of dark mode in user interfaces, explain how you would use a media query to detect if the user has set their system to prefer a dark color scheme. Provide an example of how you would change the background and text colors of a website based on this preference.
+
+# STEPS :
+
+
+
+
+
+# CODE :
+html {
+    font-size: 50px;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #007bff;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    html {
+        font-size: 50px;
+        background: #333;
+        color: orange;
+    }
+ a {
+        color: #17a2b8;
+ }
+}
+
+# OUTPUT :
+
+lightmode:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/026a1cdc-da7f-406b-8b5b-890a0806e205)
+
+darkmode:
+
+![image](https://github.com/keerthanapillaram/ODD2023-WT-Ex-07-CSS/assets/145743072/a062ba68-143e-4cef-b6de-51c30ccc7ac9)
+
+
+
+
+
+
 
 
 
