@@ -26,7 +26,7 @@ If the user has set their device to dark mode, override the above styles with th
 # CODE :
 
 css.html:
-
+ ```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,9 +43,10 @@ css.html:
  <a href="http://www.myntra.com/mailers/skin-care/foxtale/foxtale-the-diva-overnight-glow-face-mask-with-aha-&-pha---30-ml/21887068/buy"> MYNTRA LINK</a>  
 </body>
 </html>
+```
 
 1.css :
-
+```
 html {
     font-size: 50px;
     color: #333;
@@ -80,6 +81,7 @@ a {
 footer {
     font-size: x-large;
 }
+```
 
 # Output(i):
 
