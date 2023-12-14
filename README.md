@@ -20,8 +20,14 @@ If the user has set their device to dark mode, override the above styles with th
 
 # STEPS:
 
+Step1:
+Meet the requirements for the default mode or light mode
 
+Step2:
+Choose a device which is smaller in size of mobilephone of 600px and meet the prefered requirements
 
+Step3:
+Meet the requirements for the prefered darker mode
 
 # CODE :
 
@@ -104,6 +110,20 @@ To use a media query in CSS to apply different styles to a webpage for mobile de
 
 # STEPS :
 
+Step 1:
+Start a html project
+
+Step 2:
+Create a css file in the same folder in which html file is created
+
+Step 3:
+inside html code give href link of the css code
+
+Step 4:
+meet the requirements given in the question
+
+Step 5:
+run the program with prefered screen width
 
 
 # CODE :
@@ -146,6 +166,20 @@ Explain how you can use CSS media queries to apply different styles based on the
 
 #  STEPS :
 
+Step1:
+start a html project
+
+Step 2:
+create a css file in the same folder in which file is created,give the href link in the html code
+
+Step3:
+Define a CSS media query for each orientation. The syntax for a media query is @media (orientation: value), where value can be either portrait or landscape.
+
+Step 4:
+You can change background color of it
+
+Step4:
+Run the html program
 
 
 # CODE :
@@ -188,9 +222,20 @@ potrait:
 To describe how you would use media queries to adjust typography (like font size and line spacing) on a website to improve readability across different device sizes, from mobile phones to large desktop monitors. Include a CSS code snippet in your explanation.
 
 # STEPS :
+Step1:
+start a html project
 
+Step 2:
+create a css file in the same folder in which file is created,give the href link in html code
 
+Step 3:
+give different font sizes for different screen sizes accordingly
 
+Step4:
+adjusting different colors for different screen width
+
+Step5:
+Run the html program
 
 # CODE :
 ```
@@ -255,10 +300,20 @@ default:
 Media queries can be used to provide print-friendly styles for web pages. How would you use a media query to change the styling of a webpage when it is printed, such as changing the background to white and hiding non-essential elements Provide a CSS example.
 
 # STEPS :
+Step1:
+start a html project
 
+Step 2:
+create a css file in the same folder in which file is created,give href link in html program
 
+Step3:
+after creating a css file give Inside each media query block, adjust the styles for the identified elements. You can change the background to white and hide non-essential elements.
 
+Step4:
+test the html file
 
+Step5:
+run the html program
 
 # CODE :
 ```
@@ -304,9 +359,20 @@ With the increasing popularity of dark mode in user interfaces, explain how you 
 
 # STEPS :
 
+Step1:
+start a html project
 
+Step 2:
+create a css file in the same folder in which file is created,give href link in html program
 
+Step 3:
+using media queries set the preference to dark mode and night mode
 
+Step 4:
+change the background color and font color to different
+
+Step 5:
+run the html program
 
 # CODE :
 ```
