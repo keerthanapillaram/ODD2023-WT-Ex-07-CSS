@@ -127,6 +127,8 @@ run the program with prefered screen width
 
 
 # CODE :
+2.css :
+
 ```
 html {
     font-size: 50px;
@@ -183,6 +185,8 @@ Run the html program
 
 
 # CODE :
+3.css :
+
 ```
 @media (orientation: potrait) {
     html {
@@ -238,6 +242,8 @@ Step5:
 Run the html program
 
 # CODE :
+4.css :
+
 ```
 html {
     font-size: 20px;
@@ -316,6 +322,8 @@ Step5:
 run the html program
 
 # CODE :
+5.css :
+
 ```
 html {
     font-size: 50px;
@@ -375,6 +383,8 @@ Step 5:
 run the html program
 
 # CODE :
+6.css :
+
 ```
 html {
     font-size: 50px;
